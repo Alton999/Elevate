@@ -4,9 +4,8 @@ import PropTypes from "prop-types";
 import { cardColorPool } from "../../constants";
 
 import { motion } from "framer-motion";
-import { fadeIn } from "../../utils/motion.js";
 
-const ProfileCard = ({ index, profileImg, name, role, tag }) => {
+const ProfileCard = ({  profileImg, name, role, tag }) => {
 	const random = (colorsArr) => {
 		return colorsArr[Math.floor(Math.random() * colorsArr.length)];
 	};
@@ -41,7 +40,6 @@ const ProfileCard = ({ index, profileImg, name, role, tag }) => {
 export default ProfileCard;
 
 ProfileCard.propTypes = {
-	index: PropTypes.number.isRequired,
 	profileImg: PropTypes.string.isRequired,
 	name: PropTypes.string.isRequired,
 	role: PropTypes.string.isRequired,

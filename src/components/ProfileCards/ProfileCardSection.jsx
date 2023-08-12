@@ -41,7 +41,6 @@ const ProfileCardSection = ({ teamProfiles }) => {
 						name={profile.name}
 						role={profile.role}
 						tag={profile.tag}
-						index={index}
 					/>
 				))}
 			</motion.div>
@@ -57,7 +56,6 @@ const ProfileCardSection = ({ teamProfiles }) => {
 				>
 					{expanded ? "Minimise team section": "Meet the rest of the team"}
 				</button>
-				{/* <MainButton buttonText="Meet the rest of the team" /> */}
 			</motion.div>
 		</motion.section>
 	);

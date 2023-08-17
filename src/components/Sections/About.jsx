@@ -9,8 +9,8 @@ import {fadeIn} from "../../utils/motion.js"
 
 const About = () => {
     return (
-        <section className="lg:h-screen lg:justify-between lg:py-0 pb-12 text-primary bg-line bg-no-repeat bg-right bg-cover flex flex-col space-y-16">
-            <div></div>
+        <section className="lg:h-screen lg:justify-center lg:py-0 pb-12 text-primary bg-line bg-no-repeat bg-right bg-cover flex flex-col space-y-16">
+            {/*<div></div>*/}
             <motion.section
                 className="lg:flex items-center justify-center mx-auto space-y-[20px] px-8">
                 <motion.section
@@ -29,11 +29,11 @@ const About = () => {
                     <img src={ClassPicture} alt="Image showing the classroom" className="w-[400px] "/>
                 </motion.figure>
             </motion.section>
-            <div className="w-full lg:flex justify-between lg:h-[100px] items-center text-center">
-                <div className="w-full lg:text-[24px] text-[20px] bg-[#E99762]/60 h-full items-center flex justify-center py-6">Meet the team</div>
-                <div className="w-full lg:text-[24px] text-[20px] bg-[#F4E1C7] h-full items-center flex justify-center py-6">Testimonial</div>
-                <div className="w-full lg:text-[24px] text-[20px] bg-[#B8DDD0] h-full items-center flex justify-center py-6">Subject offerings</div>
-            </div>
+            {/*<div className="w-full lg:flex justify-between lg:h-[100px] items-center text-center">*/}
+            {/*    <div className="w-full lg:text-[24px] text-[20px] bg-[#E99762]/60 h-full items-center flex justify-center py-6">Meet the team</div>*/}
+            {/*    <div className="w-full lg:text-[24px] text-[20px] bg-[#F4E1C7] h-full items-center flex justify-center py-6">Testimonial</div>*/}
+            {/*    <div className="w-full lg:text-[24px] text-[20px] bg-[#B8DDD0] h-full items-center flex justify-center py-6">Subject offerings</div>*/}
+            {/*</div>*/}
         </section>
     );
 };
